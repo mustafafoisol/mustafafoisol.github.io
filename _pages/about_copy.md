@@ -8,4 +8,4 @@ redirect_from:
   - /about.html
 ---
 
-I'm a first year Ph.D. at the University of Minnesota, Twin Cities. I will add more information later. :p
+I'm a second year Ph.D. at the University of Minnesota, Twin Cities. I will add more information later. :p
