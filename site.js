@@ -23,7 +23,12 @@
   };
 
   if (content.building) setText('[data-building-title]', content.building.title || '');
-  if (content.teaching) setText('[data-teaching-title]', content.teaching.title || '');
+  if (content.teaching) {
+    document.querySelectorAll('[data-teaching-title]').forEach((node) => {
+      node.replaceChildren();
+      appendTitle(node, content.teaching);
+    });
+  }
   const learning = Array.isArray(content.learning) ? content.learning : [];
   const learningSummary = document.querySelector('[data-learning-summary]');
   if (learningSummary) {

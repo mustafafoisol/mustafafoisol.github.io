@@ -5,8 +5,8 @@ window.siteContent = {
     title: "IBA MBA Question Practice Platform"
   },
   teaching: {
-    title: "[Current course and term]",
-    url: "course.html"
+    title: "Fall 2026 · Software Engineering, Artificial Intelligence, and their labs",
+    url: "teaching.html#fall-2026"
   },
   learning: [
     { title: "[IELTS]", url: "https://85bandclub.com/" },

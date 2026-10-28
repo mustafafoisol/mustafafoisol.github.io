@@ -117,3 +117,18 @@ p { margin: 0 0 12px; }
 }
 
 .pronouns { font-size: .7em; font-weight: normal; white-space: nowrap; }
+
+.course-nav { display: flex; flex-wrap: wrap; gap: 12px 24px; margin: 22px 0; }
+.course-nav a { color: var(--muted); text-underline-offset: 5px; }
+.course-nav a[aria-current="page"] { color: var(--text); font-weight: bold; }
+.schedule-scroll { overflow-x: auto; margin-top: 20px; }
+.schedule-scroll:focus-visible { outline: 2px solid var(--text); outline-offset: 4px; }
+.schedule-table { width: 100%; min-width: 580px; border-collapse: collapse; text-align: left; font-size: 15px; }
+.schedule-table caption { text-align: left; color: var(--muted); padding-bottom: 12px; }
+.schedule-table th, .schedule-table td { padding: 14px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+.schedule-table th:first-child, .schedule-table td:first-child { padding-left: 0; width: 130px; }
+.schedule-table th { font-weight: bold; }
+.schedule-table time { white-space: nowrap; }
+.resource-list { list-style: none; padding: 0; margin: 0; }
+.resource-list li + li { margin-top: 8px; }
+.resource-list a, .material-row a { overflow-wrap: anywhere; }
